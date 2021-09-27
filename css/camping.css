@@ -5,7 +5,7 @@
 /* Cool gif background */
 html{
     background-color: rgba(1, 97, 1, 0.8);
-    background-image: url('../img/Nature.gif');
+    background-image: url('../img/camp-nature-castle.gif');
     background-repeat: no-repeat;		
 	background-position: top;	
 	background-size: cover;
@@ -69,7 +69,7 @@ p
 }
 header
 {
-    background-color: rgba(60, 150, 50, 0.85);
+    background-color: rgba(82, 88, 79, 0.85);
     max-width: 70%;
     margin: 0px auto;
     border-radius: 50px;
@@ -114,3 +114,30 @@ a:link {
   a:active {
     color: #800000;
   }
+
+#waterfalls
+{
+    display: block;
+    max-width: 30%;
+    margin: 0px auto;
+    min-width: 20%;
+}
+main
+{
+    background-color: rgba(82, 88, 79, 0.85);
+    max-width: 70%;
+    margin: 0px auto;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #020;
+    padding: 0px 10px 10px 10px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+li
+{
+    font-size: 30px;
+    margin: auto;
+}
