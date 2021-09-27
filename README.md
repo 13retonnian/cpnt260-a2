@@ -10,7 +10,7 @@ Links to
 Github Repo:
 https://github.com/13retonnian/cpnt260-a2
 Github Pages:
-
+https://13retonnian.github.io/cpnt260-a2/
 
 Code Review (less than 500 words):
 Too sleepy to write much. It's kind of messy and I should do some refactoring.
