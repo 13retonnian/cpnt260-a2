@@ -1,0 +1,79 @@
+/* Programmed by Christopher Barber */
+/* Codepen Code used from Ashlyn Knox's Codepen page: https://codepen.io/ashlyn-knox/pen/MWmxxbR */
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap');
+/* Cool gif background */
+html{
+    background-color: rgba(1, 97, 1, 0.8);
+    background-image: url('../img/Nature.gif');
+    background-repeat: no-repeat;		
+	background-position: top;	
+	background-size: cover;
+	height: 100vh;        
+}
+/* Layout of cards */
+.flex-container 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}  
+/* Card Style */
+.card 
+{
+    /* layout inside card */
+    display: flex;
+    flex-direction: column;
+    
+    /* Design of Card */
+    border: 7px solid #030;
+    border-radius: 50px;
+    max-width: 350px;
+    min-width: 350px;
+    margin: 12px auto;
+    background-color: rgba(60, 150, 50, 0.85);
+    padding: 10px;
+}  
+figcaption 
+{
+    min-width: 30ch;
+    max-width: 40ch;
+    text-align: center;
+}
+img 
+{
+    width: 100%;
+    margin: 0 0 12px 0;
+    /* curved top and flat bottom */
+    border-radius: 50px;  
+}
+/* Main Layout */
+.main 
+{
+    margin: 0 auto;
+}  
+/* Text */
+h1, h2, h3, p 
+{
+    font-family: 'Oxygen', sans-serif;
+    color: #010;
+}
+h1, header p 
+{
+    text-align: center;
+}
+p
+{
+    font-size: clamp(12px, 20px, 40px);
+}
+header
+{
+    background-color: rgba(60, 150, 50, 0.85);
+    max-width: 70%;
+    margin: 0px auto;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 7px;
+    border-color: #020;
+    padding: 0px 10px 10px 10px;
+}
